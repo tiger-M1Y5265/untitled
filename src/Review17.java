@@ -4,10 +4,8 @@ public class Review17 {
         int sum = 0;
         int i = 0;
         while (num >= i) {
-            if(i % 2 == 0) {
-                sum += i;
-            }
-            i = i + 1;
+            sum += i;
+            i = i + 2;
         }
         System.out.println("結果:" + sum);
     }
