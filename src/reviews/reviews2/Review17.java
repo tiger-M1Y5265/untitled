@@ -1,8 +1,10 @@
-public class Review18  {
+package reviews.reviews2;
+
+public class Review17 {
     public static void main(String[] args) {
         int num = 5;
         int sum = 0;
-        int i = 1;
+        int i = 0;
         while (num >= i) {
             sum += i;
             i = i + 2;
