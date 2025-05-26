@@ -5,7 +5,7 @@ public class Review26 {
         int[] numArray = new int[]{11,12,13,14,15};;
         int target = 11;
         int count = 0;
-        for (int i =0; i < 10; i++) {
+        for (int i =0; i < numArray.length; i++) {
             if(numArray[i] == target) {
                 count = count + 1;
             }
